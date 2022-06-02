@@ -19,7 +19,6 @@
                     <h3 class="section-subheading text-muted">Yuk coba Resep makanan terpopuler dibawah ini</h3>
                 </div>
                 <div class="row g-5">
-                    </div>
                 </div>
             </div>
         </section>

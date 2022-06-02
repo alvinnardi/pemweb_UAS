@@ -15,8 +15,12 @@
                 @if (request('category'))
                     <input type="hidden" name="category" value="{{ request('category') }}">
                 @endif
+                <form>
+                    <input type="text" name="search" placeholder="Search..">
+                    <button class="btn btn-warning" type="submit">Cari</button>
+                </form>
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Cari.." name="search" value="{{ request('search') }}">
+                    <input type="text" name="search" placeholder="Search.." value="{{ request('search') }}" button=>
                     <button class="btn btn-warning" type="submit">Cari</button>
                 </div>
             </form>
