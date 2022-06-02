@@ -11,19 +11,13 @@
     <h1 class="mb-3 text-center">{{ $title }}</h1>
     <div class="row justify-content-center mb-3">
         <div class="col-md-6">
-            <form action="/posts">
+            <form action="/posts" style="text-align: center;">
                 @if (request('category'))
                     <input type="hidden" name="category" value="{{ request('category') }}">
                 @endif
-                <form>
-                    <input type="text" name="search" placeholder="Search..">
-                    <button class="btn btn-warning" type="submit">Cari</button>
-                </form>
-                <div class="input-group mb-3">
-                    <input type="text" name="search" placeholder="Search.." value="{{ request('search') }}" button=>
-                    <button class="btn btn-warning" type="submit">Cari</button>
-                </div>
+                    <input type="text" name="search" placeholder="Search.." value="{{ request('search') }}">
             </form>
+
         </div>
     </div>
     @if ($posts->count())

@@ -2,7 +2,7 @@
     <div class="container">
         <a class="navbar-brand" href="/posts"><img src="{{ URL::to('/img/Logo White.png') }}" height="30 px">RESTRY</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span><i class="fas fa-bars ms-1"></i></button>
+            <span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item ">

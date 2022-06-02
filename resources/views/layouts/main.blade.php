@@ -23,6 +23,7 @@
   <body>
     @include('layouts.navbar')
         @yield('container')
+        
     </div>
 
    
