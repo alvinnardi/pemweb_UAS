@@ -15,7 +15,7 @@
                 @if (request('category'))
                     <input type="hidden" name="category" value="{{ request('category') }}">
                 @endif
-                    <input type="text" name="search" placeholder="Search.." value="{{ request('search') }}">
+                    <input type="text"  class="form-control mt-5 mb-5" name="search" placeholder="Search.." value="{{ request('search') }}">
             </form>
 
         </div>
