@@ -104,7 +104,6 @@ class AdminCategoryController extends Controller
     {
         $rules = [
             'name' => 'required|max:255',
-
         ];
         if ($request->slug != $category->slug) {
             $rules['slug'] = 'required|unique:categories';
