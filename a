@@ -1,0 +1,65 @@
+[33mcommit 0eeebb045e910f710747a915000d8a65954282db[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: ganden16 <alvindian85@gmail.com>
+Date:   Tue May 24 12:23:50 2022 +0700
+
+    update user
+
+[33mcommit 38eee6dd1ed537761db1ff170a25406708cef33c[m
+Author: ganden16 <alvindian85@gmail.com>
+Date:   Tue May 24 09:51:35 2022 +0700
+
+    halaman profile dan edit admin
+
+[33mcommit be5307371971cf65c9548fd01e238abfbf55ea2f[m
+Author: ganden16 <alvindian85@gmail.com>
+Date:   Tue May 24 00:14:05 2022 +0700
+
+    readonly slug
+
+[33mcommit 1e4a7a2529e76daac8d527c0e925dabc4bd65167[m
+Author: ganden16 <alvindian85@gmail.com>
+Date:   Tue May 24 00:08:40 2022 +0700
+
+    edit admin
+
+[33mcommit e09d810612b7a280f4d241ac06757f26f3cad09f[m
+Author: ganden16 <alvindian85@gmail.com>
+Date:   Mon May 23 22:58:24 2022 +0700
+
+    read data all users
+
+[33mcommit e2cb66463955bf26c32b6fd74abb7af68bbdd95f[m
+Author: ganden16 <alvindian85@gmail.com>
+Date:   Mon May 23 21:49:12 2022 +0700
+
+    edit slug
+
+[33mcommit bf417fe4ee97b35c749507e5ba63ac899e510d4e[m
+Author: ganden16 <alvindian85@gmail.com>
+Date:   Mon May 23 21:33:12 2022 +0700
+
+    tambah controller AdminUser dan viewnya
+
+[33mcommit 930c5ecaf8638334a112629f5da26e53dbbd70a8[m
+Author: ganden16 <alvindian85@gmail.com>
+Date:   Mon May 23 20:36:38 2022 +0700
+
+    menambah fungsi create kategori dan halaman landing page
+
+[33mcommit 0a300d0dd465851bc05b8dbfa87977758ed86bcd[m
+Author: ganden16 <alvindian85@gmail.com>
+Date:   Mon May 23 19:56:57 2022 +0700
+
+    ubah redirect saat login menuju posts
+
+[33mcommit ddb7904e9cb1c6203ab1a1593923402d6b9105e8[m
+Author: ganden16 <alvindian85@gmail.com>
+Date:   Mon May 23 19:37:29 2022 +0700
+
+    ubah warna tombol cari dan readmore pada posts.index
+
+[33mcommit a0b1200c7522640c9fa73305fda20184ba43572f[m
+Author: ganden16 <alvindian85@gmail.com>
+Date:   Mon May 23 16:50:32 2022 +0700
+
+    inisialisasi
