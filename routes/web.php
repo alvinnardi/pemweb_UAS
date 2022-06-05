@@ -14,9 +14,6 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\AdminCategoryController;
 use App\Http\Controllers\DashboardPostController;
 
-
-
-
 Route::get('/', function () {
     return view('home.index', [
         "title" => "Home"
@@ -31,8 +28,6 @@ Route::get('/about', function () {
 
 Route::get('/posts', [PostController::class, 'viewAllPosts']);
 Route::get('/posts/{post:slug}', [PostController::class, 'viewPost']);
-// Route::get('/posts', [PostController::class, 'viewAllPostsAdmin'])->middleware('auth');
-// Route::get('/posts/{post:slug}', [PostController::class, 'viewPostAdmin'])->middleware('auth');
 
 Route::get('/category', [CategoryController::class, 'viewAllCategory']);
 
